@@ -15,7 +15,7 @@ variable "instcount" {
 default = "3"
 }
 resource "aws_instance" "fb_ns3_cluster_instance"{
- ami  = "ami-067de159f98988344"
+ ami  = "amiId"
  count  = var.instcount
  instance_type = "c5n.2xlarge"
  availability_zone = "us-east-1c"
