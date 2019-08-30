@@ -20,7 +20,7 @@ resource "aws_instance" "fb_ns3_cluster_instance"{
  instance_type = "c5n.2xlarge"
  availability_zone = "us-east-1c"
  key_name = "Enter your key"
- security_groups = ["NYCOffice"]
+ security_groups = ["your security group"]
  cpu_core_count = "4"
  cpu_threads_per_core = "1"
 
